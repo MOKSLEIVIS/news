@@ -1,0 +1,155 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 10px 0 10px 0;
+    margin: 0;
+    background-color: rgb(244, 244, 244);
+    border-bottom: solid 1px rgb(158, 158, 158);
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#logo {
+    letter-spacing: 2px;
+}
+
+header a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+header nav {
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+}
+
+main {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.main-wrapper {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    width: 50%;
+}
+
+.top-news {
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.top-featured {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    background-color: rgb(243, 243, 243);
+    border: solid 1px rgb(233, 233, 233);
+    border-radius: 5px;
+    width: 58%;
+    transition: all 0.1s ease-in-out;
+}
+
+.top-featured:hover {
+    box-shadow: 0 0 2px 1px rgb(222, 222, 222);
+}
+
+.top-featured a {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    flex-direction: column;
+}
+
+.top-featured img {
+    padding: 0;
+    margin: 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.top-featured h1 {
+    padding: 5px;
+    margin: 0;
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+.secondary-featured {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    width: 32%;
+    gap: 5px;
+}
+
+.secondary-featured div {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+    border: solid 1px rgb(233, 233, 233);
+    transition: all 0.1s ease-in-out;
+}
+
+.secondary-featured div:hover {
+    box-shadow: 0 0 2px 1px rgb(222, 222, 222);
+}
+
+.secondary-featured div img {
+    padding: 0;
+    margin: 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.secondary-featured div h1 {
+    padding: 5px;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+.secondary-featured div a {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    text-decoration: none;
+}
