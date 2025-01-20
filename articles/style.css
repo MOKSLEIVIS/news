@@ -2,8 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: rgb(255, 255, 255);
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", serif;
 }
 
 @media only screen and (max-width: 460px) {
@@ -38,7 +37,7 @@ header {
     /* padding: 10px 0 10px 0; */
     padding: 0;
     margin: 0;
-    background-color: rgb(244, 244, 244);
+    /* background-color: rgb(244, 244, 244); */
     border-bottom: solid 1px rgb(158, 158, 158);
     flex-direction: row;
     gap: 10px;
@@ -52,7 +51,7 @@ header {
     display: flex;
     padding: 0;
     margin: 0;
-    background-color: rgb(172, 79, 79);
+    background-color: rgb(74, 120, 163);
     width: 100%;
     align-items: center;
     justify-items: center;
@@ -90,8 +89,8 @@ header nav ul {
 
 #border-sides {
     padding: 0 10px 0 10px;
-    border-right: solid 1px rgb(33, 33, 33);
-    border-left: solid 1px rgb(33, 33, 33);
+    /* border-right: solid 1px rgb(33, 33, 33);
+    border-left: solid 1px rgb(33, 33, 33); */
 }
 
 main {
@@ -126,11 +125,11 @@ main {
 }
 
 .article-top h1 {
-    padding: 5px;
+    padding: 5px 0 0 0;
     margin: 0;
     color: rgb(0, 0, 0);
-    font-size: 38px;
-    font-weight: 500;
+    font-size: 32px;
+    font-weight: 400;
 }
 
 .article {
@@ -151,13 +150,14 @@ main {
     padding: 0;
     margin: 0;
     font-size: 18px;
+    font-weight: 250;
 }
 
 .article-summary-h1 {
     padding: 0;
     margin: 0;
     font-size: 26px;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 .p-text-block {
@@ -173,7 +173,7 @@ main {
     padding: 2px;
     margin: 0;
     align-self: flex-start;
-    color: rgb(172, 172, 172);
+    color: rgb(36, 36, 36);
     font-weight: lighter;
     font-size: 14px;
 }
